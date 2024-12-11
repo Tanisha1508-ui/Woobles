@@ -1,0 +1,44 @@
+h2{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .gallery-item {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .gallery-item-content {
+    padding: 1rem;
+  }
+
+  .gallery-item-content h3 {
+    margin-bottom: 0.5rem;
+    color: #FF6B6B;
+  }
+
+  .gallery-item-content p {
+    color: #555;
+  }
